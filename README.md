@@ -1,4 +1,4 @@
-# ReWear – TeamTAN
+# ReWear – Team_TAN
 
 ## Problem Statement : ReWear – Community Clothing Exchange
 
