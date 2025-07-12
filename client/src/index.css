@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(24, 85%, 96%);
+  --foreground: hsl(16, 35%, 25%);
+  --muted: hsl(20, 20%, 92%);
+  --muted-foreground: hsl(16, 15%, 45%);
+  --popover: hsl(24, 85%, 96%);
+  --popover-foreground: hsl(16, 35%, 25%);
+  --card: hsl(24, 85%, 96%);
+  --card-foreground: hsl(16, 35%, 25%);
+  --border: hsl(16, 20%, 88%);
+  --input: hsl(16, 20%, 88%);
+  --primary: hsl(12, 76%, 61%);
+  --primary-foreground: hsl(24, 85%, 96%);
+  --secondary: hsl(20, 20%, 92%);
+  --secondary-foreground: hsl(16, 35%, 25%);
+  --accent: hsl(45, 95%, 70%);
+  --accent-foreground: hsl(16, 35%, 25%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(12, 76%, 61%);
+  --radius: 0.5rem;
+
+  /* ReWear Fashion Color Palette from mockup */
+  --main-color: hsl(12, 76%, 61%);
+  --neutral-bg: hsl(24, 85%, 96%);
+  --neutral-secondary: hsl(20, 20%, 92%);
+  --accent-yellow: hsl(45, 95%, 70%);
+  --accent-burnt: hsl(16, 70%, 50%);
+  --lighter-tone: hsl(320, 40%, 90%);
+  --darker-tone: hsl(195, 25%, 25%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply antialiased bg-background text-foreground;
+    font-family: 'Montserrat', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', Arial Black, sans-serif;
+  }
+}
+
+@layer utilities {
+  .bg-dusty-rose {
+    background-color: var(--dusty-rose);
+  }
+  
+  .bg-soft-pink {
+    background-color: var(--soft-pink);
+  }
+  
+  .bg-golden-yellow {
+    background-color: var(--golden-yellow);
+  }
+  
+  .bg-terracotta {
+    background-color: var(--terracotta);
+  }
+  
+  .bg-warm-beige {
+    background-color: var(--warm-beige);
+  }
+  
+  .bg-light-gray {
+    background-color: var(--light-gray);
+  }
+
+  .text-dusty-rose {
+    color: var(--dusty-rose);
+  }
+  
+  .text-soft-pink {
+    color: var(--soft-pink);
+  }
+  
+  .text-golden-yellow {
+    color: var(--golden-yellow);
+  }
+  
+  .text-terracotta {
+    color: var(--terracotta);
+  }
+
+  .border-dusty-rose {
+    border-color: var(--dusty-rose);
+  }
+
+  .hover\:bg-dusty-rose\/90:hover {
+    background-color: hsl(352, 28%, 60%);
+  }
+
+  .hover\:bg-golden-yellow\/90:hover {
+    background-color: hsl(44, 86%, 60%);
+  }
+
+  .hover\:bg-terracotta\/90:hover {
+    background-color: hsl(18, 53%, 47%);
+  }
+
+  .font-bebas {
+    font-family: 'Bebas Neue', Arial Black, sans-serif;
+  }
+
+  .font-montserrat {
+    font-family: 'Montserrat', system-ui, sans-serif;
+  }
+
+  /* Text truncation utilities */
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+}

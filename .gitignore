@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Build Output
+dist/
+build/
+
+# Runtime Files
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
