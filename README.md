@@ -1,9 +1,9 @@
-# ReWear – Team_TAN
+# ReWear – TeamTAN
 
 ## Problem Statement : ReWear – Community Clothing Exchange
 
 
-## Team Details : Team Name: Team TAN
+## Team Details : Team Name: TeamTAN
 - We used the Live Share extension in VS Code, which is why all the changes ended up in a single commit.
 ---
 
