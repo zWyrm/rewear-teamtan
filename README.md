@@ -4,7 +4,7 @@
 
 
 ## Team Details : Team Name: TeamTAN
-- We used the Live Share extension in VS Code, which is why all the changes ended up in a single commit.
+- Verdict: Selected as one of the top 300 teams from 19000+ applicants for the final onsite round
 ---
 
 ### Team Leader  
@@ -25,4 +25,5 @@
 - Name: Prajesh Biswas  
 - Phone: 70031 73112  
 - Email: prajeshbiswas2005@gmail.com
+
 
